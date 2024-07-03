@@ -1,0 +1,244 @@
+@media screen and (max-width: 1140px) {
+    .navbar {
+        display:none
+    }
+
+    .mobile-navbar {
+        display:inline-block;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 16px 32px
+    }
+
+    .s-home .container .home-content-cta h1 {
+        font-size:6.4rem
+    }
+
+    #s-cards .container h2 {
+        font-size:3.2rem;
+        width: 100%
+    }
+
+    #s-cards .container p {
+        font-size:1.8rem;
+        width: 100%
+    }
+
+    .s-blog .container .blog-container-post {
+        flex-wrap:wrap
+    }
+
+    .s-blog .container .blog-container-post article {
+        width:100%
+    }
+
+    .s-blog .container .blog-container-post article img {
+        width:100%;
+        height: 250px;
+        object-fit: cover
+    }
+
+    .s-faq .container>span h2 {
+        font-size:3.2rem
+    }
+
+    .s-faq .container>span p {
+        font-size:1.8rem
+    }
+}
+
+
+@media screen and (max-width: 1216px) {
+    .s-home {
+        height:100%
+    }
+
+    .s-home .container {
+        padding:40px 24px
+    }
+
+    .s-home .container .home-content-cta {
+        width:100%
+    }
+
+    .s-home .container .home-content-cta .home-description {
+        width:100%
+    }
+
+    .s-home .container .home-cards {
+        display:none
+    }
+
+    .s-about .container {
+        padding:40px 24px
+    }
+
+    .s-about .about-image-mobile {
+        display:none
+    }
+
+    .s-about .about-content-mobile {
+        width:100vw
+    }
+
+    .s-about .about-content-mobile .about-content-text div img {
+        display:none
+    }
+
+    .s-about .about-content-mobile .about-content-text div span {
+        margin-left:0px
+    }
+
+    .s-innovation .container {
+        padding:72px 24px
+    }
+
+    .s-innovation .container .cards-innovation {
+        flex-wrap:wrap
+    }
+
+    .s-innovation .container .cards-innovation article {
+        width:100%
+    }
+
+    .s-innovation .container .cards-innovation .card-innovation-void {
+        display:none
+    }
+
+    .s-depositions .container {
+        padding:72px 24px
+    }
+
+    .s-depositions .container .depositions-people {
+        flex-wrap:wrap;
+        gap: 64px
+    }
+
+    .s-depositions .container .depositions-people div {
+        width:100%
+    }
+
+    .s-download-app .container {
+        padding:72px 24px
+    }
+
+    .s-download-app .container>div h3 {
+        font-size:3.2em
+    }
+
+    .s-download-app .container>div>p {
+        width:100%;
+        font-size: 1.8rem
+    }
+
+    .s-download-app .container>div div {
+        flex-wrap:wrap
+    }
+
+    .s-download-app .container .app-inovabank {
+        display:none
+    }
+
+    .s-blog .container div:nth-child(1) h2 {
+        font-size:3.2rem
+    }
+
+    .s-faq .container {
+        padding:72px 32px
+    }
+
+    .s-faq .container .faq-option {
+        width:100%;
+        margin: 40px auto 0px auto
+    }
+
+    .s-faq .container .faq-option>div {
+        min-height:125px
+    }
+
+    .s-faq .container .faq-option>div .icon-faq {
+        display:none
+    }
+
+    .s-faq .container .faq-option>div span {
+        margin-left:0px
+    }
+
+    footer .container {
+        flex-wrap:wrap;
+        gap: 24px;
+    }
+}
+
+@media screen and (max-width: 688px) {
+    .s-home .container .home-content-cta h1 {
+        font-size:4.8rem
+    }
+
+    .s-home .container .home-content-cta .home-description {
+        font-size:1.8rem
+    }
+
+    .s-about .about-content-mobile h2 {
+        font-size:3.2rem
+    }
+
+    .s-about .about-content-mobile>p {
+        font-size:1.8rem
+    }
+
+    .s-innovation .container h5 {
+        font-size:1.8rem
+    }
+
+    .s-innovation .container h2 {
+        font-size:3.2rem
+    }
+
+    .s-depositions .container h2 {
+        font-size:3.2rem
+    }
+
+    #s-cards .container div {
+        flex-wrap:wrap;
+        gap: 24px
+    }
+
+    #s-cards .container div a {
+        width:100%
+    }
+
+    .s-blog .container div:nth-child(1) a p {
+        font-size:1.6rem
+    }
+
+    .s-blog .container div:nth-child(1) a img {
+        width:24px
+    }
+
+    footer .container>span {
+        display:none
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .s-home .container .home-content-cta .home-group-cta {
+        flex-direction:column;
+        align-items: flex-start
+    }
+
+    .s-home .container .home-content-cta .home-group-cta button {
+        width:100%;
+        justify-content: center
+    }
+    .s-home .container .home-content-cta .home-group-cta>div {
+        display:none
+    }
+
+    .s-download-app .container>div div a {
+        width:100%;
+        justify-content: center
+    }
+}
